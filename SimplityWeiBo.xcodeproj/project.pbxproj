@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ABE35A86E8E820ED6A47A5B /* libPods-SimplityWeiBo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B6CCCE31C9CA0D3E46D1ED /* libPods-SimplityWeiBo.a */; };
+		8F36F93F1D62BBD900A9C06F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F36F93E1D62BBD900A9C06F /* Assets.xcassets */; };
+		8F36F9421D62C9FD00A9C06F /* SignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F36F9411D62C9FD00A9C06F /* SignViewController.m */; };
+		8F3B3F951D5AAE8E00DB8A52 /* AboutWeiboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B3F941D5AAE8E00DB8A52 /* AboutWeiboViewController.m */; };
+		8F3B3F9A1D5AC1D500DB8A52 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B3F991D5AC1D500DB8A52 /* SettingViewController.m */; };
+		8F3B3F9D1D5AD36200DB8A52 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B3F9C1D5AD36200DB8A52 /* User.m */; };
+		8F3B3FA21D5B0F6C00DB8A52 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B3FA01D5B0F6C00DB8A52 /* MyTableViewCell.m */; };
+		8F3B3FA31D5B0F6C00DB8A52 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F3B3FA11D5B0F6C00DB8A52 /* MyTableViewCell.xib */; };
+		8F3B3FA81D5B1EE800DB8A52 /* CountManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B3FA71D5B1EE800DB8A52 /* CountManageViewController.m */; };
+		8F3B3FAB1D5B204100DB8A52 /* CounrtSaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B3FAA1D5B204100DB8A52 /* CounrtSaveViewController.m */; };
+		8F3B3FAE1D5B205D00DB8A52 /* NotifitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B3FAD1D5B205D00DB8A52 /* NotifitionViewController.m */; };
+		8F3B3FB11D5B208600DB8A52 /* SecurityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B3FB01D5B208600DB8A52 /* SecurityViewController.m */; };
+		8F3B3FB41D5B209F00DB8A52 /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B3FB31D5B209F00DB8A52 /* NormalViewController.m */; };
+		8F3B3FB71D5B20C000DB8A52 /* SuggetionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B3FB61D5B20C000DB8A52 /* SuggetionViewController.m */; };
+		8F3D1A5B1D63F6BF0018ACFF /* contectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D1A5A1D63F6BF0018ACFF /* contectViewController.m */; };
+		8F3EB6B01D5C284C003D748D /* UIWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3EB6AF1D5C284C003D748D /* UIWebViewViewController.m */; };
+		8F3EB6B31D5C604A003D748D /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3EB6B21D5C604A003D748D /* AddFriendViewController.m */; };
+		8F5B22601D59732700C41C0B /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B225F1D59732700C41C0B /* MainNavigationViewController.m */; };
+		8F5B22631D59734900C41C0B /* LWNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B22621D59734900C41C0B /* LWNViewController.m */; };
+		8F5B22731D5974F900C41C0B /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B22721D5974F900C41C0B /* MainTabBarViewController.m */; };
+		8F5B227F1D597E3D00C41C0B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B227E1D597E3D00C41C0B /* HomeViewController.m */; };
+		8F5B22821D597E4B00C41C0B /* IssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B22811D597E4B00C41C0B /* IssueViewController.m */; };
+		8F5B22851D597E5700C41C0B /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B22841D597E5700C41C0B /* MyViewController.m */; };
+		8F5B22871D59853E00C41C0B /* my_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F5B22861D59853E00C41C0B /* my_background.png */; };
+		8F5B228A1D5992A700C41C0B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B22891D5992A700C41C0B /* LoginViewController.m */; };
+		8F5B228D1D59C58400C41C0B /* BeforeSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B228C1D59C58400C41C0B /* BeforeSettingViewController.m */; };
+		8F5B22901D59DCF100C41C0B /* NormalSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B228F1D59DCF100C41C0B /* NormalSettingViewController.m */; };
+		8F5DDD181D5DB788009C0C43 /* SwpeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5DDD171D5DB788009C0C43 /* SwpeViewController.m */; };
+		8F5DDD1B1D5DF2ED009C0C43 /* DateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5DDD1A1D5DF2ED009C0C43 /* DateModel.m */; };
+		8FD6B0A41D5829CF00DF4FC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD6B0A31D5829CF00DF4FC6 /* main.m */; };
+		8FD6B0A71D5829CF00DF4FC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD6B0A61D5829CF00DF4FC6 /* AppDelegate.m */; };
+		8FD6B0AA1D5829CF00DF4FC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD6B0A91D5829CF00DF4FC6 /* ViewController.m */; };
+		8FD6B0AD1D5829CF00DF4FC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD6B0AB1D5829CF00DF4FC6 /* Main.storyboard */; };
+		8FD6B0B21D5829CF00DF4FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD6B0B01D5829CF00DF4FC6 /* LaunchScreen.storyboard */; };
+		8FD6B0BD1D5829CF00DF4FC6 /* SimplityWeiBoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD6B0BC1D5829CF00DF4FC6 /* SimplityWeiBoTests.m */; };
+		8FD6B0C81D5829CF00DF4FC6 /* SimplityWeiBoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD6B0C71D5829CF00DF4FC6 /* SimplityWeiBoUITests.m */; };
+		8FD6B0D71D5875DA00DF4FC6 /* apple-67.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FD6B0D61D5875DA00DF4FC6 /* apple-67.jpg */; };
+		8FF4E5231D66919E00662760 /* EmotionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4E5211D66919E00662760 /* EmotionCollectionViewCell.m */; };
+		8FF4E5241D66919E00662760 /* EmotionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FF4E5221D66919E00662760 /* EmotionCollectionViewCell.xib */; };
+		8FFDBCE81D616959000C160E /* ToolModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFDBCE71D616959000C160E /* ToolModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FD6B0B91D5829CF00DF4FC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FD6B0971D5829CE00DF4FC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FD6B09E1D5829CF00DF4FC6;
+			remoteInfo = SimplityWeiBo;
+		};
+		8FD6B0C41D5829CF00DF4FC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FD6B0971D5829CE00DF4FC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FD6B09E1D5829CF00DF4FC6;
+			remoteInfo = SimplityWeiBo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14E56EDE318284B75039C471 /* Pods-SimplityWeiBo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplityWeiBo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimplityWeiBo/Pods-SimplityWeiBo.release.xcconfig"; sourceTree = "<group>"; };
+		8F36F93E1D62BBD900A9C06F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F36F9401D62C9FD00A9C06F /* SignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignViewController.h; sourceTree = "<group>"; };
+		8F36F9411D62C9FD00A9C06F /* SignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignViewController.m; sourceTree = "<group>"; };
+		8F3B3F931D5AAE8E00DB8A52 /* AboutWeiboViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutWeiboViewController.h; sourceTree = "<group>"; };
+		8F3B3F941D5AAE8E00DB8A52 /* AboutWeiboViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutWeiboViewController.m; sourceTree = "<group>"; };
+		8F3B3F981D5AC1D500DB8A52 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		8F3B3F991D5AC1D500DB8A52 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		8F3B3F9B1D5AD36200DB8A52 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		8F3B3F9C1D5AD36200DB8A52 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		8F3B3F9F1D5B0F6C00DB8A52 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		8F3B3FA01D5B0F6C00DB8A52 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		8F3B3FA11D5B0F6C00DB8A52 /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		8F3B3FA61D5B1EE800DB8A52 /* CountManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountManageViewController.h; sourceTree = "<group>"; };
+		8F3B3FA71D5B1EE800DB8A52 /* CountManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountManageViewController.m; sourceTree = "<group>"; };
+		8F3B3FA91D5B204100DB8A52 /* CounrtSaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounrtSaveViewController.h; sourceTree = "<group>"; };
+		8F3B3FAA1D5B204100DB8A52 /* CounrtSaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounrtSaveViewController.m; sourceTree = "<group>"; };
+		8F3B3FAC1D5B205D00DB8A52 /* NotifitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifitionViewController.h; sourceTree = "<group>"; };
+		8F3B3FAD1D5B205D00DB8A52 /* NotifitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotifitionViewController.m; sourceTree = "<group>"; };
+		8F3B3FAF1D5B208600DB8A52 /* SecurityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityViewController.h; sourceTree = "<group>"; };
+		8F3B3FB01D5B208600DB8A52 /* SecurityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityViewController.m; sourceTree = "<group>"; };
+		8F3B3FB21D5B209F00DB8A52 /* NormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalViewController.h; sourceTree = "<group>"; };
+		8F3B3FB31D5B209F00DB8A52 /* NormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
+		8F3B3FB51D5B20C000DB8A52 /* SuggetionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggetionViewController.h; sourceTree = "<group>"; };
+		8F3B3FB61D5B20C000DB8A52 /* SuggetionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggetionViewController.m; sourceTree = "<group>"; };
+		8F3D1A591D63F6BF0018ACFF /* contectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contectViewController.h; sourceTree = "<group>"; };
+		8F3D1A5A1D63F6BF0018ACFF /* contectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contectViewController.m; sourceTree = "<group>"; };
+		8F3EB6AE1D5C284C003D748D /* UIWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewViewController.h; sourceTree = "<group>"; };
+		8F3EB6AF1D5C284C003D748D /* UIWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewViewController.m; sourceTree = "<group>"; };
+		8F3EB6B11D5C604A003D748D /* AddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendViewController.h; sourceTree = "<group>"; };
+		8F3EB6B21D5C604A003D748D /* AddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendViewController.m; sourceTree = "<group>"; };
+		8F5B225E1D59732700C41C0B /* MainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationViewController.h; sourceTree = "<group>"; };
+		8F5B225F1D59732700C41C0B /* MainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
+		8F5B22611D59734900C41C0B /* LWNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWNViewController.h; sourceTree = "<group>"; };
+		8F5B22621D59734900C41C0B /* LWNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWNViewController.m; sourceTree = "<group>"; };
+		8F5B22711D5974F900C41C0B /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		8F5B22721D5974F900C41C0B /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		8F5B227D1D597E3D00C41C0B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8F5B227E1D597E3D00C41C0B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8F5B22801D597E4B00C41C0B /* IssueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssueViewController.h; sourceTree = "<group>"; };
+		8F5B22811D597E4B00C41C0B /* IssueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssueViewController.m; sourceTree = "<group>"; };
+		8F5B22831D597E5700C41C0B /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		8F5B22841D597E5700C41C0B /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		8F5B22861D59853E00C41C0B /* my_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_background.png; sourceTree = "<group>"; };
+		8F5B22881D5992A700C41C0B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8F5B22891D5992A700C41C0B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8F5B228B1D59C58400C41C0B /* BeforeSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeforeSettingViewController.h; sourceTree = "<group>"; };
+		8F5B228C1D59C58400C41C0B /* BeforeSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeforeSettingViewController.m; sourceTree = "<group>"; };
+		8F5B228E1D59DCF100C41C0B /* NormalSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalSettingViewController.h; sourceTree = "<group>"; };
+		8F5B228F1D59DCF100C41C0B /* NormalSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalSettingViewController.m; sourceTree = "<group>"; };
+		8F5DDD161D5DB788009C0C43 /* SwpeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwpeViewController.h; sourceTree = "<group>"; };
+		8F5DDD171D5DB788009C0C43 /* SwpeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwpeViewController.m; sourceTree = "<group>"; };
+		8F5DDD191D5DF2ED009C0C43 /* DateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateModel.h; sourceTree = "<group>"; };
+		8F5DDD1A1D5DF2ED009C0C43 /* DateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateModel.m; sourceTree = "<group>"; };
+		8FD6B09F1D5829CF00DF4FC6 /* SimplityWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplityWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD6B0A31D5829CF00DF4FC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FD6B0A51D5829CF00DF4FC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FD6B0A61D5829CF00DF4FC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FD6B0A81D5829CF00DF4FC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8FD6B0A91D5829CF00DF4FC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8FD6B0AC1D5829CF00DF4FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FD6B0B11D5829CF00DF4FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FD6B0B31D5829CF00DF4FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD6B0B81D5829CF00DF4FC6 /* SimplityWeiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplityWeiBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD6B0BC1D5829CF00DF4FC6 /* SimplityWeiBoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplityWeiBoTests.m; sourceTree = "<group>"; };
+		8FD6B0BE1D5829CF00DF4FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD6B0C31D5829CF00DF4FC6 /* SimplityWeiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplityWeiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD6B0C71D5829CF00DF4FC6 /* SimplityWeiBoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplityWeiBoUITests.m; sourceTree = "<group>"; };
+		8FD6B0C91D5829CF00DF4FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD6B0D51D583D9100DF4FC6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8FD6B0D61D5875DA00DF4FC6 /* apple-67.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-67.jpg"; sourceTree = "<group>"; };
+		8FF4E5201D66919E00662760 /* EmotionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionCollectionViewCell.h; sourceTree = "<group>"; };
+		8FF4E5211D66919E00662760 /* EmotionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionCollectionViewCell.m; sourceTree = "<group>"; };
+		8FF4E5221D66919E00662760 /* EmotionCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmotionCollectionViewCell.xib; sourceTree = "<group>"; };
+		8FFDBCE61D616959000C160E /* ToolModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolModel.h; sourceTree = "<group>"; };
+		8FFDBCE71D616959000C160E /* ToolModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolModel.m; sourceTree = "<group>"; };
+		E34FC98B62F5F83A9A26659A /* Pods-SimplityWeiBo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplityWeiBo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimplityWeiBo/Pods-SimplityWeiBo.debug.xcconfig"; sourceTree = "<group>"; };
+		E7B6CCCE31C9CA0D3E46D1ED /* libPods-SimplityWeiBo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimplityWeiBo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FD6B09C1D5829CF00DF4FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABE35A86E8E820ED6A47A5B /* libPods-SimplityWeiBo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD6B0B51D5829CF00DF4FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD6B0C01D5829CF00DF4FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F3B3F971D5ABFA500DB8A52 /* my登录后 */ = {
+			isa = PBXGroup;
+			children = (
+				8F3EB6B61D5C76BE003D748D /* mainVC */,
+				8F3B3FA41D5B17CB00DB8A52 /* viw */,
+				8F3B3FA51D5B1E7300DB8A52 /* settingVC */,
+			);
+			name = "my登录后";
+			sourceTree = "<group>";
+		};
+		8F3B3F9E1D5AD3A300DB8A52 /* modle */ = {
+			isa = PBXGroup;
+			children = (
+				8FF4E5251D66959000662760 /* emotion */,
+				8F3B3F9B1D5AD36200DB8A52 /* User.h */,
+				8F3B3F9C1D5AD36200DB8A52 /* User.m */,
+				8F3EB6AE1D5C284C003D748D /* UIWebViewViewController.h */,
+				8F3EB6AF1D5C284C003D748D /* UIWebViewViewController.m */,
+				8F5DDD161D5DB788009C0C43 /* SwpeViewController.h */,
+				8F5DDD171D5DB788009C0C43 /* SwpeViewController.m */,
+				8F5DDD191D5DF2ED009C0C43 /* DateModel.h */,
+				8F5DDD1A1D5DF2ED009C0C43 /* DateModel.m */,
+			);
+			name = modle;
+			sourceTree = "<group>";
+		};
+		8F3B3FA41D5B17CB00DB8A52 /* viw */ = {
+			isa = PBXGroup;
+			children = (
+				8F3B3F9F1D5B0F6C00DB8A52 /* MyTableViewCell.h */,
+				8F3B3FA01D5B0F6C00DB8A52 /* MyTableViewCell.m */,
+				8F3B3FA11D5B0F6C00DB8A52 /* MyTableViewCell.xib */,
+			);
+			name = viw;
+			sourceTree = "<group>";
+		};
+		8F3B3FA51D5B1E7300DB8A52 /* settingVC */ = {
+			isa = PBXGroup;
+			children = (
+				8F3B3FA61D5B1EE800DB8A52 /* CountManageViewController.h */,
+				8F3B3FA71D5B1EE800DB8A52 /* CountManageViewController.m */,
+				8F3B3FA91D5B204100DB8A52 /* CounrtSaveViewController.h */,
+				8F3B3FAA1D5B204100DB8A52 /* CounrtSaveViewController.m */,
+				8F3B3FAC1D5B205D00DB8A52 /* NotifitionViewController.h */,
+				8F3B3FAD1D5B205D00DB8A52 /* NotifitionViewController.m */,
+				8F3B3FAF1D5B208600DB8A52 /* SecurityViewController.h */,
+				8F3B3FB01D5B208600DB8A52 /* SecurityViewController.m */,
+				8F3B3FB21D5B209F00DB8A52 /* NormalViewController.h */,
+				8F3B3FB31D5B209F00DB8A52 /* NormalViewController.m */,
+				8F3D1A581D63F6350018ACFF /* 多复用viewcontroller */,
+			);
+			name = settingVC;
+			sourceTree = "<group>";
+		};
+		8F3D1A581D63F6350018ACFF /* 多复用viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				8F3B3FB51D5B20C000DB8A52 /* SuggetionViewController.h */,
+				8F3B3FB61D5B20C000DB8A52 /* SuggetionViewController.m */,
+				8F3D1A591D63F6BF0018ACFF /* contectViewController.h */,
+				8F3D1A5A1D63F6BF0018ACFF /* contectViewController.m */,
+			);
+			name = "多复用viewcontroller";
+			sourceTree = "<group>";
+		};
+		8F3EB6B61D5C76BE003D748D /* mainVC */ = {
+			isa = PBXGroup;
+			children = (
+				8F5B22881D5992A700C41C0B /* LoginViewController.h */,
+				8F5B22891D5992A700C41C0B /* LoginViewController.m */,
+				8F3EB6B11D5C604A003D748D /* AddFriendViewController.h */,
+				8F3EB6B21D5C604A003D748D /* AddFriendViewController.m */,
+				8F3B3F981D5AC1D500DB8A52 /* SettingViewController.h */,
+				8F3B3F991D5AC1D500DB8A52 /* SettingViewController.m */,
+			);
+			name = mainVC;
+			sourceTree = "<group>";
+		};
+		8F5B225A1D59720400C41C0B /* other */ = {
+			isa = PBXGroup;
+			children = (
+				8F5B22861D59853E00C41C0B /* my_background.png */,
+				8FD6B0D51D583D9100DF4FC6 /* PrefixHeader.pch */,
+				8FD6B0A51D5829CF00DF4FC6 /* AppDelegate.h */,
+				8FD6B0A61D5829CF00DF4FC6 /* AppDelegate.m */,
+				8F5B22711D5974F900C41C0B /* MainTabBarViewController.h */,
+				8F5B22721D5974F900C41C0B /* MainTabBarViewController.m */,
+				8F5B225E1D59732700C41C0B /* MainNavigationViewController.h */,
+				8F5B225F1D59732700C41C0B /* MainNavigationViewController.m */,
+				8F5B22611D59734900C41C0B /* LWNViewController.h */,
+				8F5B22621D59734900C41C0B /* LWNViewController.m */,
+				8FD6B0AB1D5829CF00DF4FC6 /* Main.storyboard */,
+				8FD6B0D61D5875DA00DF4FC6 /* apple-67.jpg */,
+				8FD6B0B01D5829CF00DF4FC6 /* LaunchScreen.storyboard */,
+				8FD6B0B31D5829CF00DF4FC6 /* Info.plist */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		8F5B22651D59736200C41C0B /* my登录前 */ = {
+			isa = PBXGroup;
+			children = (
+				8F5B22831D597E5700C41C0B /* MyViewController.h */,
+				8F5B22841D597E5700C41C0B /* MyViewController.m */,
+				8F5B228B1D59C58400C41C0B /* BeforeSettingViewController.h */,
+				8F5B228C1D59C58400C41C0B /* BeforeSettingViewController.m */,
+				8F5B228E1D59DCF100C41C0B /* NormalSettingViewController.h */,
+				8F5B228F1D59DCF100C41C0B /* NormalSettingViewController.m */,
+				8F3B3F931D5AAE8E00DB8A52 /* AboutWeiboViewController.h */,
+				8F3B3F941D5AAE8E00DB8A52 /* AboutWeiboViewController.m */,
+			);
+			name = "my登录前";
+			sourceTree = "<group>";
+		};
+		8F5B22661D59737700C41C0B /* issue */ = {
+			isa = PBXGroup;
+			children = (
+				8F5B22801D597E4B00C41C0B /* IssueViewController.h */,
+				8F5B22811D597E4B00C41C0B /* IssueViewController.m */,
+				8F36F9401D62C9FD00A9C06F /* SignViewController.h */,
+				8F36F9411D62C9FD00A9C06F /* SignViewController.m */,
+			);
+			name = issue;
+			sourceTree = "<group>";
+		};
+		8F5B22671D59738300C41C0B /* home */ = {
+			isa = PBXGroup;
+			children = (
+				8F5B227D1D597E3D00C41C0B /* HomeViewController.h */,
+				8F5B227E1D597E3D00C41C0B /* HomeViewController.m */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		8FD6B0961D5829CE00DF4FC6 = {
+			isa = PBXGroup;
+			children = (
+				8FD6B0A11D5829CF00DF4FC6 /* SimplityWeiBo */,
+				8FD6B0BB1D5829CF00DF4FC6 /* SimplityWeiBoTests */,
+				8FD6B0C61D5829CF00DF4FC6 /* SimplityWeiBoUITests */,
+				8FD6B0A01D5829CF00DF4FC6 /* Products */,
+				CDD2B99C3F677E2EEDBA12D9 /* Pods */,
+				9308B906D1C81562A78ED633 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8FD6B0A01D5829CF00DF4FC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FD6B09F1D5829CF00DF4FC6 /* SimplityWeiBo.app */,
+				8FD6B0B81D5829CF00DF4FC6 /* SimplityWeiBoTests.xctest */,
+				8FD6B0C31D5829CF00DF4FC6 /* SimplityWeiBoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FD6B0A11D5829CF00DF4FC6 /* SimplityWeiBo */ = {
+			isa = PBXGroup;
+			children = (
+				8F36F93E1D62BBD900A9C06F /* Assets.xcassets */,
+				8FFDBCE51D61693A000C160E /* tool */,
+				8F3B3F9E1D5AD3A300DB8A52 /* modle */,
+				8F5B22671D59738300C41C0B /* home */,
+				8F5B22661D59737700C41C0B /* issue */,
+				8F5B22651D59736200C41C0B /* my登录前 */,
+				8F3B3F971D5ABFA500DB8A52 /* my登录后 */,
+				8F5B225A1D59720400C41C0B /* other */,
+				8FD6B0A21D5829CF00DF4FC6 /* Supporting Files */,
+			);
+			path = SimplityWeiBo;
+			sourceTree = "<group>";
+		};
+		8FD6B0A21D5829CF00DF4FC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FD6B0A31D5829CF00DF4FC6 /* main.m */,
+				8FD6B0A81D5829CF00DF4FC6 /* ViewController.h */,
+				8FD6B0A91D5829CF00DF4FC6 /* ViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FD6B0BB1D5829CF00DF4FC6 /* SimplityWeiBoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FD6B0BC1D5829CF00DF4FC6 /* SimplityWeiBoTests.m */,
+				8FD6B0BE1D5829CF00DF4FC6 /* Info.plist */,
+			);
+			path = SimplityWeiBoTests;
+			sourceTree = "<group>";
+		};
+		8FD6B0C61D5829CF00DF4FC6 /* SimplityWeiBoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FD6B0C71D5829CF00DF4FC6 /* SimplityWeiBoUITests.m */,
+				8FD6B0C91D5829CF00DF4FC6 /* Info.plist */,
+			);
+			path = SimplityWeiBoUITests;
+			sourceTree = "<group>";
+		};
+		8FF4E5251D66959000662760 /* emotion */ = {
+			isa = PBXGroup;
+			children = (
+				8FF4E5201D66919E00662760 /* EmotionCollectionViewCell.h */,
+				8FF4E5211D66919E00662760 /* EmotionCollectionViewCell.m */,
+				8FF4E5221D66919E00662760 /* EmotionCollectionViewCell.xib */,
+			);
+			name = emotion;
+			sourceTree = "<group>";
+		};
+		8FFDBCE51D61693A000C160E /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				8FFDBCE61D616959000C160E /* ToolModel.h */,
+				8FFDBCE71D616959000C160E /* ToolModel.m */,
+			);
+			name = tool;
+			sourceTree = "<group>";
+		};
+		9308B906D1C81562A78ED633 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7B6CCCE31C9CA0D3E46D1ED /* libPods-SimplityWeiBo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDD2B99C3F677E2EEDBA12D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E34FC98B62F5F83A9A26659A /* Pods-SimplityWeiBo.debug.xcconfig */,
+				14E56EDE318284B75039C471 /* Pods-SimplityWeiBo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FD6B09E1D5829CF00DF4FC6 /* SimplityWeiBo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD6B0CC1D5829CF00DF4FC6 /* Build configuration list for PBXNativeTarget "SimplityWeiBo" */;
+			buildPhases = (
+				B3280CB30CD4B17D65423C9D /* [CP] Check Pods Manifest.lock */,
+				8FD6B09B1D5829CF00DF4FC6 /* Sources */,
+				8FD6B09C1D5829CF00DF4FC6 /* Frameworks */,
+				8FD6B09D1D5829CF00DF4FC6 /* Resources */,
+				6504A013C66B79BDC6D89CE5 /* [CP] Embed Pods Frameworks */,
+				1F626AB449A72126A91D200A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplityWeiBo;
+			productName = SimplityWeiBo;
+			productReference = 8FD6B09F1D5829CF00DF4FC6 /* SimplityWeiBo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FD6B0B71D5829CF00DF4FC6 /* SimplityWeiBoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD6B0CF1D5829CF00DF4FC6 /* Build configuration list for PBXNativeTarget "SimplityWeiBoTests" */;
+			buildPhases = (
+				8FD6B0B41D5829CF00DF4FC6 /* Sources */,
+				8FD6B0B51D5829CF00DF4FC6 /* Frameworks */,
+				8FD6B0B61D5829CF00DF4FC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FD6B0BA1D5829CF00DF4FC6 /* PBXTargetDependency */,
+			);
+			name = SimplityWeiBoTests;
+			productName = SimplityWeiBoTests;
+			productReference = 8FD6B0B81D5829CF00DF4FC6 /* SimplityWeiBoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FD6B0C21D5829CF00DF4FC6 /* SimplityWeiBoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD6B0D21D5829CF00DF4FC6 /* Build configuration list for PBXNativeTarget "SimplityWeiBoUITests" */;
+			buildPhases = (
+				8FD6B0BF1D5829CF00DF4FC6 /* Sources */,
+				8FD6B0C01D5829CF00DF4FC6 /* Frameworks */,
+				8FD6B0C11D5829CF00DF4FC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FD6B0C51D5829CF00DF4FC6 /* PBXTargetDependency */,
+			);
+			name = SimplityWeiBoUITests;
+			productName = SimplityWeiBoUITests;
+			productReference = 8FD6B0C31D5829CF00DF4FC6 /* SimplityWeiBoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FD6B0971D5829CE00DF4FC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Macx;
+				TargetAttributes = {
+					8FD6B09E1D5829CF00DF4FC6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CX4PQV8F6P;
+					};
+					8FD6B0B71D5829CF00DF4FC6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CX4PQV8F6P;
+						TestTargetID = 8FD6B09E1D5829CF00DF4FC6;
+					};
+					8FD6B0C21D5829CF00DF4FC6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CX4PQV8F6P;
+						TestTargetID = 8FD6B09E1D5829CF00DF4FC6;
+					};
+				};
+			};
+			buildConfigurationList = 8FD6B09A1D5829CE00DF4FC6 /* Build configuration list for PBXProject "SimplityWeiBo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FD6B0961D5829CE00DF4FC6;
+			productRefGroup = 8FD6B0A01D5829CF00DF4FC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FD6B09E1D5829CF00DF4FC6 /* SimplityWeiBo */,
+				8FD6B0B71D5829CF00DF4FC6 /* SimplityWeiBoTests */,
+				8FD6B0C21D5829CF00DF4FC6 /* SimplityWeiBoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FD6B09D1D5829CF00DF4FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD6B0B21D5829CF00DF4FC6 /* LaunchScreen.storyboard in Resources */,
+				8FF4E5241D66919E00662760 /* EmotionCollectionViewCell.xib in Resources */,
+				8F3B3FA31D5B0F6C00DB8A52 /* MyTableViewCell.xib in Resources */,
+				8FD6B0AD1D5829CF00DF4FC6 /* Main.storyboard in Resources */,
+				8F5B22871D59853E00C41C0B /* my_background.png in Resources */,
+				8F36F93F1D62BBD900A9C06F /* Assets.xcassets in Resources */,
+				8FD6B0D71D5875DA00DF4FC6 /* apple-67.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD6B0B61D5829CF00DF4FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD6B0C11D5829CF00DF4FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F626AB449A72126A91D200A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplityWeiBo/Pods-SimplityWeiBo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6504A013C66B79BDC6D89CE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplityWeiBo/Pods-SimplityWeiBo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3280CB30CD4B17D65423C9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FD6B09B1D5829CF00DF4FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5B22821D597E4B00C41C0B /* IssueViewController.m in Sources */,
+				8F3B3FAE1D5B205D00DB8A52 /* NotifitionViewController.m in Sources */,
+				8F5B22631D59734900C41C0B /* LWNViewController.m in Sources */,
+				8F36F9421D62C9FD00A9C06F /* SignViewController.m in Sources */,
+				8F3B3FAB1D5B204100DB8A52 /* CounrtSaveViewController.m in Sources */,
+				8F3EB6B31D5C604A003D748D /* AddFriendViewController.m in Sources */,
+				8F3B3F951D5AAE8E00DB8A52 /* AboutWeiboViewController.m in Sources */,
+				8F3B3F9A1D5AC1D500DB8A52 /* SettingViewController.m in Sources */,
+				8F5B22901D59DCF100C41C0B /* NormalSettingViewController.m in Sources */,
+				8F5DDD181D5DB788009C0C43 /* SwpeViewController.m in Sources */,
+				8F3EB6B01D5C284C003D748D /* UIWebViewViewController.m in Sources */,
+				8F3B3FA21D5B0F6C00DB8A52 /* MyTableViewCell.m in Sources */,
+				8F3B3F9D1D5AD36200DB8A52 /* User.m in Sources */,
+				8FD6B0AA1D5829CF00DF4FC6 /* ViewController.m in Sources */,
+				8FFDBCE81D616959000C160E /* ToolModel.m in Sources */,
+				8F5B22851D597E5700C41C0B /* MyViewController.m in Sources */,
+				8F5B228A1D5992A700C41C0B /* LoginViewController.m in Sources */,
+				8FD6B0A71D5829CF00DF4FC6 /* AppDelegate.m in Sources */,
+				8F5B228D1D59C58400C41C0B /* BeforeSettingViewController.m in Sources */,
+				8FD6B0A41D5829CF00DF4FC6 /* main.m in Sources */,
+				8F3B3FA81D5B1EE800DB8A52 /* CountManageViewController.m in Sources */,
+				8F5B22731D5974F900C41C0B /* MainTabBarViewController.m in Sources */,
+				8F5B227F1D597E3D00C41C0B /* HomeViewController.m in Sources */,
+				8F3B3FB71D5B20C000DB8A52 /* SuggetionViewController.m in Sources */,
+				8F3B3FB11D5B208600DB8A52 /* SecurityViewController.m in Sources */,
+				8F5DDD1B1D5DF2ED009C0C43 /* DateModel.m in Sources */,
+				8F5B22601D59732700C41C0B /* MainNavigationViewController.m in Sources */,
+				8F3B3FB41D5B209F00DB8A52 /* NormalViewController.m in Sources */,
+				8FF4E5231D66919E00662760 /* EmotionCollectionViewCell.m in Sources */,
+				8F3D1A5B1D63F6BF0018ACFF /* contectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD6B0B41D5829CF00DF4FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD6B0BD1D5829CF00DF4FC6 /* SimplityWeiBoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD6B0BF1D5829CF00DF4FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD6B0C81D5829CF00DF4FC6 /* SimplityWeiBoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FD6B0BA1D5829CF00DF4FC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FD6B09E1D5829CF00DF4FC6 /* SimplityWeiBo */;
+			targetProxy = 8FD6B0B91D5829CF00DF4FC6 /* PBXContainerItemProxy */;
+		};
+		8FD6B0C51D5829CF00DF4FC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FD6B09E1D5829CF00DF4FC6 /* SimplityWeiBo */;
+			targetProxy = 8FD6B0C41D5829CF00DF4FC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FD6B0AB1D5829CF00DF4FC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FD6B0AC1D5829CF00DF4FC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FD6B0B01D5829CF00DF4FC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FD6B0B11D5829CF00DF4FC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FD6B0CA1D5829CF00DF4FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FD6B0CB1D5829CF00DF4FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FD6B0CD1D5829CF00DF4FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34FC98B62F5F83A9A26659A /* Pods-SimplityWeiBo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SimplityWeibo/PrefixHeader.pch";
+				INFOPLIST_FILE = SimplityWeiBo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ann.SimplityWeiBo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FD6B0CE1D5829CF00DF4FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E56EDE318284B75039C471 /* Pods-SimplityWeiBo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SimplityWeibo/PrefixHeader.pch";
+				INFOPLIST_FILE = SimplityWeiBo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ann.SimplityWeiBo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FD6B0D01D5829CF00DF4FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimplityWeiBoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ann.SimplityWeiBoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplityWeiBo.app/SimplityWeiBo";
+			};
+			name = Debug;
+		};
+		8FD6B0D11D5829CF00DF4FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimplityWeiBoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ann.SimplityWeiBoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplityWeiBo.app/SimplityWeiBo";
+			};
+			name = Release;
+		};
+		8FD6B0D31D5829CF00DF4FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimplityWeiBoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ann.SimplityWeiBoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimplityWeiBo;
+			};
+			name = Debug;
+		};
+		8FD6B0D41D5829CF00DF4FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimplityWeiBoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ann.SimplityWeiBoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimplityWeiBo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FD6B09A1D5829CE00DF4FC6 /* Build configuration list for PBXProject "SimplityWeiBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD6B0CA1D5829CF00DF4FC6 /* Debug */,
+				8FD6B0CB1D5829CF00DF4FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FD6B0CC1D5829CF00DF4FC6 /* Build configuration list for PBXNativeTarget "SimplityWeiBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD6B0CD1D5829CF00DF4FC6 /* Debug */,
+				8FD6B0CE1D5829CF00DF4FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FD6B0CF1D5829CF00DF4FC6 /* Build configuration list for PBXNativeTarget "SimplityWeiBoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD6B0D01D5829CF00DF4FC6 /* Debug */,
+				8FD6B0D11D5829CF00DF4FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FD6B0D21D5829CF00DF4FC6 /* Build configuration list for PBXNativeTarget "SimplityWeiBoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD6B0D31D5829CF00DF4FC6 /* Debug */,
+				8FD6B0D41D5829CF00DF4FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FD6B0971D5829CE00DF4FC6 /* Project object */;
+}

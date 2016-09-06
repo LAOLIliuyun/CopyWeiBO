@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Iad-2u-yzU">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="assecc_token" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9BB-xL-Or1">
+                                <rect key="frame" x="32" y="146" width="362" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQM-Gp-uNU">
+                                <rect key="frame" x="38" y="214" width="45" height="30"/>
+                                <state key="normal" title="发微博"/>
+                                <connections>
+                                    <action selector="sendMessagebuttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AvA-Fv-Tco"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ovH-Rc-SlE">
+                                <rect key="frame" x="32" y="252" width="278" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hte-mA-Ol5">
+                                <rect key="frame" x="27" y="97" width="67" height="30"/>
+                                <state key="normal" title="登录"/>
+                                <connections>
+                                    <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AXT-Ab-Bgg"/>
+                                </connections>
+                            </button>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2sQ-rH-s9Y">
+                                <rect key="frame" x="0.0" y="684" width="414" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" id="Hxt-Te-paT"/>
+                                </items>
+                            </toolbar>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q3p-SK-rge">
+                                <rect key="frame" x="0.0" y="684" width="414" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem title="首页" image="home" id="iJ0-WC-Hwj"/>
+                                    <tabBarItem title="" image="arrow-up.png" id="tIX-bV-5vr">
+                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="20"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="我的微博" image="user@3x" id="6NO-S6-c4u"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="v5V-hF-CgR">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" image="person" id="pI1-r5-tMm"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="XH3-6b-9OF">
+                            <rect key="frame" x="69" y="7" width="286" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                            <state key="normal" title="名字">
+                                <color key="titleColor" red="0.93028059549999997" green="0.1792959834" blue="0.3142696975" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <barButtonItem key="rightBarButtonItem" title="雷达" id="dHx-5C-vIY"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="access_token" destination="9BB-xL-Or1" id="skc-QC-qCk"/>
+                        <outlet property="sendMessageTextField" destination="ovH-Rc-SlE" id="Z8T-TM-DYR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="924" y="372"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DcE-wr-ivX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Iad-2u-yzU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3fw-WN-BoG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="yiz-pD-1WN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bbm-3s-j1n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="304"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow-up.png" width="33" height="33"/>
+        <image name="home" width="22" height="22"/>
+        <image name="person" width="32" height="32"/>
+        <image name="user@3x" width="22" height="22"/>
+    </resources>
+</document>
